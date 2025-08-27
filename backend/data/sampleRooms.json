@@ -1,0 +1,37 @@
+[
+  {
+    "id": "DLX-001",
+    "name": "Deluxe Room",
+    "roomType": "deluxe",
+    "description": "Spacious deluxe room with city view, queen bed, and ensuite bathroom.",
+    "imageUrl": "https://images.unsplash.com/photo-1505691723518-36a5ac3b2bf4?q=80&w=1200&auto=format&fit=crop",
+    "basePrice": { "single": 80, "double": 100 },
+    "extraPerson": { "adult": 20, "child": 10 },
+    "amenities": ["WiFi", "Air Conditioning", "TV", "Breakfast Available"],
+    "maxOccupancy": 3
+  },
+  {
+    "id": "STD-002",
+    "name": "Standard Room",
+    "roomType": "standard",
+    "description": "Cozy standard room perfect for short stays. One double bed.",
+    "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1200&auto=format&fit=crop",
+    "basePrice": { "single": 60, "double": 75 },
+    "extraPerson": { "adult": 18, "child": 8 },
+    "amenities": ["WiFi", "Air Conditioning", "TV"],
+    "maxOccupancy": 2
+  },
+  {
+    "id": "SUI-003",
+    "name": "Family Suite",
+    "roomType": "suite",
+    "description": "Large family suite with separate living area and two queen beds.",
+    "imageUrl": "https://images.unsplash.com/photo-1551776235-dde6d4829808?q=80&w=1200&auto=format&fit=crop",
+    "basePrice": { "single": 120, "double": 150 },
+    "extraPerson": { "adult": 25, "child": 12 },
+    "amenities": ["WiFi", "Air Conditioning", "TV", "Mini Fridge", "Sofa Bed"],
+    "maxOccupancy": 5
+  }
+]
+
+
