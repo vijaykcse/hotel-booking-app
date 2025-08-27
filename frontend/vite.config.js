@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()],
     base: "/hotel-booking-app/",
-    root: 'frontend',
+    root: './frontend',
     build: {
     outDir: '../dist',}
 })
