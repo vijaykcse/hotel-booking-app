@@ -7,7 +7,24 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+const allowedOrigins = [
+  'http://localhost:5173', // Your local frontend for testing
+  'https://vijaykcse.github.io/hotel-booking-app/' // <-- ADD YOUR GITHUB URL HERE
+];
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
+};
+
+app.use(cors(corsOptions));
+
+// ... rest of your server code
 app.use(express.json());
 
 app.get('/', (req, res) => {
