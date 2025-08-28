@@ -9,7 +9,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:5173', // Your local frontend for testing
-  'https://vijaykcse.github.io/hotel-booking-app/' // <-- ADD YOUR GITHUB URL HERE
+  'https://vijaykcse.github.io', // <-- ADD YOUR GITHUB URL HERE
 ];
 
 const corsOptions = {
