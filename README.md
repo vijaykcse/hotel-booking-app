@@ -3,6 +3,9 @@
 
 This is a full-stack hotel room booking website built with a React frontend, a Node.js/Express backend, and Google Sheets as the database. It features dynamic pricing, real-time availability checking, and a responsive design.
 
+# **Documentation**
+https://docs.google.com/document/d/1OO__AEcxSP6D6JEyfcmSSnr1SqVQPYtqcZLigBTGiCg/edit?usp=sharing
+
 ## **Live Demo**
 
 You can view the live deployed application here:  
