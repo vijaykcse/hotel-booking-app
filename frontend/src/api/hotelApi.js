@@ -1,4 +1,4 @@
-const API_URL = 'https://hotel-booking-app-1-fpat.onrender.com/api';
+const API_URL = "https://hotel-booking-app-1-fpat.onrender.com/api";
 
 
 export const fetchRooms = async () => {
