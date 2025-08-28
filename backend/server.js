@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [
-  //'http://localhost:5173', 
+  'http://localhost:5173', 
   'https://vijaykcse.github.io',
   //'https://hotel-booking-app-pzfs-9ttiizauk-vijays-projects-df95abbd.vercel.app',  
 ];
