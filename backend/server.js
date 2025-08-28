@@ -9,7 +9,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:5173', 
-  'https://vijaykcse.github.io',
+  'https://vijaykcse.github.io/hotel-booking-app',
   'https://hotel-booking-app-pzfs-9ttiizauk-vijays-projects-df95abbd.vercel.app',  
 ];
 
