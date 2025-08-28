@@ -8,12 +8,6 @@ This is a full-stack hotel room booking website built with a React frontend, a N
 You can view the live deployed application here:  
 https://vijaykcse.github.io/hotel-booking-app/
 
-## **Frontend Workflow**
-
-The user interface is designed to guide the user seamlessly from searching for a room to completing a booking. The process includes date selection, real-time price updates, room comparison, and a final confirmation step, as detailed in the flowchart below.
-
-*(Note: You must upload your flowchart image to your GitHub repository with the name frontend-workflow.png for it to appear here.)*
-
 ## **Features**
 
 * **Dynamic Pricing:** Real-time price calculation based on dates, occupancy, and rate plans.  
